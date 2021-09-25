@@ -1,0 +1,30 @@
+.main {
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 50px;
+    overflow-y: scroll;
+}
+
+button {
+    padding: 3px 5px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .main {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+}

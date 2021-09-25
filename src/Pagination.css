@@ -1,0 +1,17 @@
+.pagination {
+    margin-top: 20px;
+}
+
+.page-item {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.page-btn {
+    border: none;
+}
+
+.active-page {
+    color: blue;
+    text-decoration: underline;
+}
